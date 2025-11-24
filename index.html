@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>My News Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tech News Now</h1>
+    <form id="searchForm">
+      <input id="searchBox" type="text" placeholder="Search news…" required />
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main id="newsGrid"></main>
+
+  <div id="loader">
+    <button id="loadMore">Load more</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
